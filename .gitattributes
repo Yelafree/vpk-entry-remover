@@ -1,0 +1,13 @@
+# Normalize line endings: the tool is cross-platform, so keep LF in the repo
+# and never let a Windows checkout rewrite the Python script.
+* text=auto eol=lf
+
+*.py    text eol=lf
+*.md    text eol=lf
+*.yaml  text eol=lf
+*.yml   text eol=lf
+
+# Binary-ish files that must never be normalized
+*.vpk   binary
+*.png   binary
+*.ico   binary

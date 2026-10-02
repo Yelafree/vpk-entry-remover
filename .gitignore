@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Tool output: backups and half-written temps
+*.vpk.bak
+*.vpk.bak[0-9]
+*.tmp
+
+# Archives this tool operates on -- never commit game data
+*.vpk
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

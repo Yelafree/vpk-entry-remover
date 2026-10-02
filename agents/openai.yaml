@@ -1,0 +1,7 @@
+interface:
+  display_name: "VPK Entry Remover"
+  short_description: "Remove a file from inside a VPK and repack it safely"
+  default_prompt: "Use $vpk-entry-remover to remove the vnmskel_c skeleton override from this pak, then verify the repacked archive."
+
+policy:
+  allow_implicit_invocation: true
